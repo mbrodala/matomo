@@ -17,7 +17,7 @@ use Piwik\Plugins\FeatureFlags\FeatureFlagInterface;
  * PLEASE NOTE!
  *
  * This feature flag only controls if the Config ID randomisation setting is visible in the Privacy settings.
- * 
+ *
  * Disabling the feature flag once the privacy setting was enabled won't stop the config ID randomisation unless
  * disabled, either through the UI with the feature flag enabled or by removing the option from the db.
  *
